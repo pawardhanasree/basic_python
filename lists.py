@@ -35,3 +35,9 @@ print(animals[-8:-1:2])
 print(animals[::3])
 
 
+#list comprehension
+animals_1 = [animal for animal in animals if(len(animal) > 3 )]
+print(animals_1)
+
+animals_2 = [animal for animal in animals if "o" in animal]
+print(animals_2)
