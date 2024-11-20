@@ -50,3 +50,10 @@ print("colors2:", colors2)
 colors1 = ["violet","indigo","blue"]
 colors2 = ["red", "green", "yellow", "orange"]
 print("concatenating two lists:", colors1 + colors2)
+
+#pop()
+colors1 = ["violet","indigo","blue", "green"]
+colors1.pop()
+print("Pop function:", colors1)
+colors1.pop(1)
+print("Pop function with parameter as 1:", colors1)
