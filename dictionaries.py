@@ -36,3 +36,34 @@ for key in info.keys():
 print("Key value pairs")
 for key, value in info.items():
     print(key, value)
+
+#dictionary methods
+#update()
+info = {"name":"Gayathri", "age":21,"eligible":True}
+info.update({"age":22})
+info.update({"DOB":2003})
+print(info)
+
+#pop()
+info.pop("DOB")
+print(info)
+
+#info.pop("DATE") #KeyError
+
+#popitem()
+info.popitem()
+print(info)
+
+#del
+del info["age"]
+print(info)
+
+#del info["DOB"] #KeyError
+
+#clear()
+info.clear()
+print(info)
+
+#del
+del info
+#print(info) #NameError
