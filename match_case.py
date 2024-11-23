@@ -4,7 +4,7 @@ match num1:
     # if num1 is 0
     case 0:
         print("num1 is zero")
-    # case with if-condition
+    # case with if-condition acts like an and condition
     case 4 if num1 % 2 == 0:
         print("num1 % 2 == 0 and case is 4")
     # Empty case with if-condition

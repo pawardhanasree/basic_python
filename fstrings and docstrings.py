@@ -16,7 +16,7 @@ def square(n):
 
 num1 = int(input("Enter a number: "))
 print("Square of the number is :", square(num1))
-print(square.__doc__)
+print(square.__doc__) #displays docstring
 
 #docstrings
 def add(n1, n2):
@@ -27,7 +27,7 @@ def add(n1, n2):
 num1 = int(input("Enter a number1: "))
 num2 = int(input("Enter a number2: "))
 print("Sum of the numbers is :", add(num1, num2))
-print(add.__doc__)
+print(add.__doc__) #ouput is None as the first line of the function is not docstring
 
 #Zen of Python
 import this

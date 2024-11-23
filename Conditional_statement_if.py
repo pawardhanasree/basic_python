@@ -28,7 +28,7 @@ num1 = int(input("Enter the number: "))
 if (num1 < 0):
     print("Number is negative")
 elif (num1 > 0):
-    if (num1 >= 10):
+    if (num1 > 0 and num1 <= 10):
         print("Number is between 0-10")
     elif (num1 > 10 and num1 <= 20):
         print("Number is between 11-20")
@@ -36,5 +36,3 @@ elif (num1 > 0):
         print("Number is greater than 30")
 else:
     print("Number is zero")
-
-
