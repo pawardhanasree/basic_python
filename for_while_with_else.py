@@ -12,7 +12,7 @@ while (i < 5):
 else:
     print("While else block")
 
-#if we use the break statement in loops
+#if we use the break statement in loops, else block will not execute
 i = 0
 while (i < 5):
     print(i)
