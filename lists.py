@@ -41,3 +41,8 @@ print(animals_1)
 
 animals_2 = [animal for animal in animals if "o" in animal]
 print(animals_2)
+
+#enumerate function
+print("Enumerate Function")
+for index, animal in enumerate(animals):
+    print(index,":",animal)
