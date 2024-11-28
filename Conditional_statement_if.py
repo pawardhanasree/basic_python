@@ -36,3 +36,8 @@ elif (num1 > 0):
         print("Number is greater than 30")
 else:
     print("Number is zero")
+
+#single hand if else
+num1 = int(input("Enter the number1: "))
+num2 = int(input("Enter the number2: "))
+print(num1) if num1 > num2 else print("Equal") if num1 == num2 else print(num2)
