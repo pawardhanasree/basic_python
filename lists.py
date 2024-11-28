@@ -46,3 +46,4 @@ print(animals_2)
 print("Enumerate Function")
 for index, animal in enumerate(animals):
     print(index,":",animal)
+
